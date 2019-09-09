@@ -56,7 +56,7 @@ function bonjour(){
 
  alert ("somme"+ resultat);
 
- Correction de l'exercice:
+ // Correction de l'exercice:
 
 
  /* ------------------------------------------------------------------------------------
@@ -71,7 +71,7 @@ function bonjour(){
  console.log(montantHT * taux/100);
  }
 
- Correction de l'exercice:
+ // Correction de l'exercice:
 
  function calculTva( montantHT, tauxTVA= 8,5 ) {
      return montantHT + (montantHT * (tauxTva/100) );
@@ -92,11 +92,12 @@ function bonjour(){
 
  -----------------------------------------------------------------------------------------*/
 
- function conversion(devise initiale,convert="dollars") {
- console.log(devise initiale convert ) 
+ function conversion(deviseinitiale,convert="dollars") {
+ console.log(deviseinitiale);
+ console.log(convert);
 }
 
-Correction de l'exercice:
+// Correction de l'exercice:
 
 function convertEurToUsd( montantEuro,tauxConversionUsd = 1.1035) {
     return montantEuro * tauxConversionUsd;
@@ -108,8 +109,14 @@ console.log(
     montantEur
     +' € en dollars donne:'
     + montantUsd
-    + '$'
-    );
+    + '$');
+
+    /* ----------------------------------------------------------------------------------------
+    EXERCICE 4:
+    
+
+
+
 
 
 
