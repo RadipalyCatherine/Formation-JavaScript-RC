@@ -91,19 +91,19 @@ var unString= unNombre.toString();
 console.log( unString );
 console.log( typeof unString );
 
-/* --------------------------------------------------------------------------------------\
-|    ~  ~    LA PORTEE DES VARIABLES        ~ ~                                          |
-|                                                                |
-| Les variables déclarées directement à la racine du fichier JS
-| sont appelées: variables GLOBALES.
-|                                                       
+/* ----------------------------------------------------------------------------------------\
+|    ~  ~    LA PORTEE DES VARIABLES        ~ ~                                            |
+|                                                                                          |
+| Les variables déclarées directement à la racine du fichier JS                            |
+| sont appelées: variables GLOBALES.                                                       |
+|                                                                                          |
 | Elles sont disponibles dans l'ensemble de votre document, y compris dans les fonctions.  |
 |                                                                                          |
 | ###                                                                                      |
 |                                                                                          |
 | Les variables déclarées à l'intérieur d'une fonction sont appelées: variables LOCALES.   |
-|
-| Elles sont disponibles UNIQUEMENT dans le scope de la fonction
+|                                                                                          |
+| Elles sont disponibles UNIQUEMENT dans le scope de la fonction                           |
 
 
 
