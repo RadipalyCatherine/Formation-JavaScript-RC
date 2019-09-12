@@ -7,6 +7,6 @@
  *
  * Objectif: Être en mesure de capturer ces événements afin d'executer une fonction.
  * 
- * Les énvénements: MOUSE (Souris)
+ * Les événements: MOUSE (Souris)
  * click: au clic sur 
  */
